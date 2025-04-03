@@ -12,7 +12,7 @@
 
 ##### `Users`
 * POST api/register - регистрация пользователя
-* POST api/login - логин, полчение токена
+* POST api/login - логин, получение токена
 
 Authorization: Bearer {token}
 
