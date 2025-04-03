@@ -20,15 +20,17 @@ Authorization: Bearer {token}
 * POST api/refresh - обновление bearer токена
 
 ##### `Tasks`
+
 Authorization: Bearer {token}
+
 * GET api/tasks - список задач
 * POST api/tasks - создание задачи
 * PUT api/tasks/{id} - обновление задачи по ID
 * DELETE api/tasks/{id} - удаление задачи по ID
 
 
-### Тесты  
-Authorization: Bearer {token}
+### Тесты
+
 * TaskControllerIndexTest -  тест списка задач
 * TaskControllerStoreTest -  тест создания задачи
 * TaskControllerUpdateTest -  тест обновления задачи
